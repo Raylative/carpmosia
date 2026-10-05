@@ -12,12 +12,13 @@
       stationProto: StandardNanotrasenStation
       components:
       - type: StationNameSetup
+        shortName: Oasis
         mapNameTemplate: '{0} Oasis {1}'
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: 'B'
       - type: StationEmergencyShuttle
-        emergencyShuttlePath: /Maps/_Carpmosia/Shuttles/emergency_accordia.yml
+        emergencyShuttlePath: /Maps/_Carpmosia/Shuttles/Emergency/accordia.yml
       - type: StationJobs
         availableJobs: # 71 jobs total w/o latejoins & interns, 90 jobs total w/ latejoins & interns
         # Command (7)

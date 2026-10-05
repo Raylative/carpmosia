@@ -12,12 +12,13 @@
       stationProto: StandardNanotrasenStation
       components:
       - type: StationNameSetup
+        shortName: Sparks
         mapNameTemplate: '{0} Sparks {1}'
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: 'SC'
       - type: StationEmergencyShuttle
-        emergencyShuttlePath: /Maps/_Carpmosia/Shuttles/emergency_compact.yml
+        emergencyShuttlePath: /Maps/_Carpmosia/Shuttles/Emergency/compact.yml
       - type: StationJobs
         availableJobs: # 41 jobs total w/o latejoins & interns, 55 jobs total w/ latejoins & interns
         # Command (7)
